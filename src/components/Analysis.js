@@ -8,9 +8,9 @@ const Analysis = () => {
       <h2>960</h2>
       <h11>Positive Reviews</h11>
       <h3>122</h3>
-      <h11>Neutral Reviews</h11>
+      <h11><span style={{ color: 'yellow' }}>Neutral Reviews</span></h11>
       <h4>321</h4>
-      <h11>Negative Reviews</h11>
+      <h11><span style={{ color: 'red' }}>Negative Reviews</span></h11>
     </div>
   );
 };
