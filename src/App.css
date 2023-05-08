@@ -11,6 +11,7 @@
   background-color: #0c4c5e;
   padding-top: 265px;
   font-size: 12px;
+  border-right: solid;
 }
 
 .sidebar-content {
@@ -34,6 +35,7 @@
   flex: 1;
   padding: 30px;
   text-align: center;
+  border-style: solid;
 }
 
 .bottom-section {
@@ -50,4 +52,9 @@ h1 {
   font-size: 13px;
   text-align: left;
   color: #2e1336;
+}
+h11 {
+  font-size: 9px;
+  font-weight: lighter;
+  color: chartreuse;
 }

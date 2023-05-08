@@ -6,6 +6,7 @@ import Rating from "./components/Rating";
 import Reviews from "./components/Reviews";
 import Sidebar from "./components/Sidebar";
 import Visitors from "./components/Visitors";
+import Chart from "./components/Chart";
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
       </nav>
       <div className='main'>
         <div className='top-section'>
-          <Analysis />
-          <Rating />
           <Reviews />
+          <Rating />
+          <Analysis />
         </div>
         <div className='bottom-section'>
           <Visitors />

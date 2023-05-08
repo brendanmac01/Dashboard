@@ -4,10 +4,9 @@ import React from 'react';
 const Reviews = () => {
   return (
     <div className='small-box'>
-      <h1>Customer Reviews</h1>
-      <h2>548</h2>
-      <h3>321</h3>
-      <h4>227</h4>
+      <h1>Reviews</h1>
+      <h2>1,281</h2>
+      <h11>You got +23.8% more reviews than last week.</h11>
     </div>
   );
 };
